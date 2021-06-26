@@ -22,3 +22,13 @@
 // typeof value --> value의 타입 확인
 // parseInt(value) --> value의 타입을 int로 바꿔줌
 // isNaN(value) --> value가 NaN인지 확인해주는 함수
+
+// name.classList.toggle("a") --> a가 있는지 확인하고 없으면 추가해줌 있으면 삭제해줌
+
+// const h1 = document.querySelector("#title");
+
+// function handleTitleClick() {
+//   h1.classList.toggle("active");
+// }
+
+// h1.addEventListener('click', handleTitleClick);
