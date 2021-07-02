@@ -43,6 +43,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   cursor: default;
+  align-items: center;
 }
 
 ul{
@@ -75,6 +76,16 @@ h2{
   margin: 8px 0px;
 }
 
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--color-white);
+  background: transparent;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  color: var(--color-white);
+}
 
 .hidden {
   display: none;
@@ -88,4 +99,21 @@ img {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+/* Login */
+#login-form {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
+input[type=submit] {
+  width: 70px;
+  margin: 0 10px;
+}
+
+input::placeholder {
+  color: var(--color-white);
+  font-size: var(--font-small);
 }
