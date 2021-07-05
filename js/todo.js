@@ -25,8 +25,8 @@ function paintToDo(toDo){
   const btn = document.createElement("button");
   btn.innerText = "❌";
   btn.addEventListener("click", deleteToDo);
-  li.appendChild(span); // <li><span></span></li> 형태로 만듦
-  li.appendChild(btn);
+  li.appendChild(btn); // <li><span></span></li> 형태로 만듦
+  li.appendChild(span);
   toDoList.appendChild(li); // html의 ul에 li 추가
 }
 
